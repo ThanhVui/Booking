@@ -1,0 +1,104 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 26, 2024, 9:57:43 PM
+    Author     : Tang Thanh Vui - CE180901
+*/
+
+/*-------Header---------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 60px;
+    overflow-x: hidden;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 80px; /* Kích thước khung chứa logo */
+    height: 80px; /* Đảm bảo chiều cao bằng chiều rộng */
+    overflow: hidden; /* Ẩn các phần bị tràn ra ngoài khung */
+    border-radius: 50%; /* Bo tròn hoàn toàn */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+/*    width: 90%;  Đảm bảo hình ảnh chiếm toàn bộ không gian 
+    height: auto;  Tự động điều chỉnh chiều cao để giữ tỉ lệ 
+    max-height: 100%;  Đảm bảo không bị kéo dài ra ngoài khung */
+    height: 110px;
+    width: 130px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    z-index: 15;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+.btn {
+    background-color: #d4af37;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:first-child {
+    background-color: #fff;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b8962e;
+}
+
+.btn:first-child:hover {
+    background-color: #fff;
+    color: #b8962e;
+}
+
+
+
