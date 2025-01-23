@@ -21,7 +21,7 @@
                     <h2>Get in touch</h2>
                     <hr> 
                 </div>
-                <input type="hidden" name="access_key" value="37fdd974-f550-4c44-921e-6de57334c2bb">
+                <input type="hidden" name="access_key" value="d7c58fb1-b22a-4353-bf94-06073132c2d7">
                 <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
                 <input type="text" name="email" placeholder="Your Email" class="contact-inputs" required>
                 <input type="text" name="phone" placeholder="Your Phone" class="contact-inputs" required>

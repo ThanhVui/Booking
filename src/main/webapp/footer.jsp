@@ -14,10 +14,12 @@
     </head>
     <body>
         <footer>
+            <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+            <script src="https://files.bpcontent.cloud/2025/01/23/03/20250123032846-S5SELA3N.js"></script>
             <div class="container">
                 <div class="footer-info">
                     <h3>VietHotel Premie</h3>
-                    <p>Address: 56 Hai Bà Trưng, Hanoi, Vietnam</p>
+                    <p>Address: Nguyen Van Cu, Can Tho, Vietnam</p>
                     <p>Email: info@viethotelpremie.vn</p>
                     <p>Phone: +84 123 456 789</p>
                 </div>
